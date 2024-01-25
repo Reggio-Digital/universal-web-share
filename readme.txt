@@ -19,7 +19,6 @@ Simplify content sharing on your WordPress site with Universal Web Share. Levera
 
 - **Lightweight and Performance-Friendly**: No additional scripts are required, thanks to the use of the native Web Share API.
 - **Compatibility**: Works seamlessly across all WordPress themes.
-- **Adaptive Design**: Configure the plugin to display the share button based on your visitor's screen resolution, catering to mobile, tablet, and desktop users.
 - **Dynamic Sharing Text**: Utilizes the post's meta description to provide richer sharing context when available.
 
 #### Why Choose the Web Share API?
@@ -44,6 +43,8 @@ By offering a simple, user-friendly, and effective way to share your valuable co
 == Frequently Asked Questions ==
 = Will you be adding additional features? =
 Yes, but the idea of the plugin is to keep things simple so you won't find major new features here.
+= Which browsers support this feature? =
+Currently Firefox does not support the Web Share API. [See browser compatibility here](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share#browser_compatibility). If the browser does not support it, the share button will not appear.
 
 == Installation ==
 1. Download Universal Web Share from the WordPress Plugin repository.
